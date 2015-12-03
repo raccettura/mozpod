@@ -1,0 +1,7 @@
+<!ENTITY copyright.title                           "Copyright (C) 2004-2007">
+<!ENTITY projectLead.title                         "Project Lead:">
+<!ENTITY contributors.title                        "Contributors:">
+<!ENTITY licence.title                             "Released under MPL/LGPL/GPL tri-license.">
+<!ENTITY disclaimer1.title                         "iPod is a registered trademark of Apple Computer Inc.">
+<!ENTITY disclaimer2.title                         "This product is not endorsed or supported by Apple.">
+<!ENTITY mozPodURL                                 "http://mozpod.mozdev.org">

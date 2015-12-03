@@ -1,0 +1,34 @@
+<!ENTITY wizard.title                              "mozPod Setup">
+<!ENTITY wizard1.label.title                       "Introduction to iPod Sync">
+<!ENTITY wizard1.description1                      "You've installed mozPod to sync your iPod with &brandShortName;!">
+<!ENTITY wizard1.description2                      "Before you can sync for the first time, you need to setup your iPod.  Don't worry, it's painless, and I'll guide you through the entire process.">
+<!ENTITY wizard1.description3                      "This will take aprox. 5 minutes of your time.">
+<!ENTITY wizard1.description4                      "Just press &quot;Next&quot; to get started or &quot;Cancel&quot; if you want to do this later.">
+
+<!ENTITY wizard2.label.title                       "mozPod Requirements">
+<!ENTITY wizard2.description1                      "To use MozPod you'll need the following:">
+<!ENTITY wizard2.description2                      "iPod with version 1.2+ of the iPod Software, or iPod Photo. The iPod Shuffle is not supported.">
+<!ENTITY wizard2.description3                      "iTunes (for setup purposes)">
+<!ENTITY wizard2.description4                      "&brandShortName; 1.5">
+<!ENTITY wizard2.description5                      "USB2 or Firewire">
+
+<!ENTITY wizard3.label.title                       "Step 1 - Connect iPod">
+<!ENTITY wizard3.description1                      "Connect iPod to computer, and open up iTunes (if it doesn't open for you automatically).">
+
+<!ENTITY wizard4.label.title                       "Step 2 - Open iPod Prefs">
+<!ENTITY wizard4.description1                      "Open the preferences window.">
+<!ENTITY wizard4.description2                      "Navigate to the iPod tab.">
+
+<!ENTITY wizard5.label.title                       "Step 3 - Mount iPod as Drive">
+<!ENTITY wizard5.description1                      "Check the &quot;mount as drive&quot; option.">
+<!ENTITY wizard5.description2                      "Click on &quot;OK&quot;">
+<!ENTITY wizard5.description3                      "You can close iTunes now, you won't need it again (for our purposes).">
+
+<!ENTITY wizard6.label.title                       "Step 4 - Your done (just restart &brandShortName;)">
+<!ENTITY wizard6.description1                      "Well, that's about it!">
+<!ENTITY wizard6.description2                      "Just restart &brandShortName;.  From now on, when you connect your iPod, while &brandShortName; is running, it will be syncronized.">
+<!ENTITY wizard6.description3                      "Enjoy your iPod, and of course enjoy &brandShortName;.">
+<!ENTITY wizard6.description4                      "If you really enjoy this sync and can't sleep unless you can thank the developer click below to learn how to do that.">
+<!ENTITY wizard6.thanking.label                    "Say Thanks">
+<!ENTITY robURL                                    "http://robert.accettura.com/about/thanking/">
+<!ENTITY wizard6.hidewizard.label                  "Don't Show this Wizard Again">

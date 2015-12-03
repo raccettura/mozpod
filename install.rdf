@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>{2a71e40a-5061-4276-881b-e4815ff3cbfb}</em:id>
+    <em:name>mozPod</em:name>
+    <em:version>0.2a1</em:version>
+    <em:description>Sync Address Book with iPod.</em:description>
+    <em:creator>Robert Accettura</em:creator>
+    <em:contributor>David Bienvenu</em:contributor>
+    <em:contributor>Boris Zbarsky</em:contributor>
+    <em:homepageURL>http://mozpod.mozdev.org</em:homepageURL>
+    <em:optionsURL>chrome://mozpod/content/mozpodOptions.xul</em:optionsURL>
+    <em:aboutURL>chrome://mozpod/content/about.xul</em:aboutURL>
+    <em:iconURL>chrome://mozpod/skin/icons/icon.png</em:iconURL>
+    <em:targetApplication>
+      <!-- XXX we leave this for now, but this will change before this goes into production -->
+      <Description>
+        <em:id>{3550f703-e582-4d05-9a08-453d09bdfdc6}</em:id>
+        <em:minVersion>1.5</em:minVersion>
+        <em:maxVersion>2.0.0.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+    <em:file>
+      <Description about="urn:mozilla:extension:file:mozpod.jar">
+        <em:package>content/mozpod/</em:package>
+        <em:locale>locale/en-US/mozpod/</em:locale>
+        <em:skin>skin/classic/mozpod/</em:skin>
+      </Description>
+    </em:file>
+  </Description>
+</RDF>

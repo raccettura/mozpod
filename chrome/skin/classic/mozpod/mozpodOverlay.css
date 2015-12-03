@@ -1,0 +1,10 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+/* CSS styles for the browser integration overlay go here */
+
+#mozpodbutton {
+    -moz-box-orient: vertical;
+    min-width: 0px;
+    list-style-image: url("chrome://mozpod/skin/icons/icon.png");
+}
+

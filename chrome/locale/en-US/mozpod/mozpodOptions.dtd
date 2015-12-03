@@ -1,0 +1,21 @@
+<!ENTITY options.title                           "Options">
+<!ENTITY detectsynctimings.title                 "Detection/Sync Timings">
+<!ENTITY loadDelay.title                         "Load Delay:">
+<!ENTITY loadDelay.accesskey                     "L">
+<!ENTITY detectionInterval.title                 "Detection Interval:">
+<!ENTITY detectionInterval.accesskey             "I">
+<!ENTITY syncBurstInterval.title                 "Sync Burst Interval:">
+<!ENTITY syncBurstInterval.accesskey             "S">
+<!ENTITY misc.title                              "Misc.">
+<!ENTITY clearMozPod.title                       "Clear iPod AB before each sync">
+<!ENTITY clearMozPod.accesskey                   "e">
+<!ENTITY showFinishAlert.title                   "Show Alert After Sync (Default on Mac)">
+<!ENTITY showFinishAlert.accesskey               "s">
+<!ENTITY ignoreCollected.title                   "Ignore Collected Addresses">
+<!ENTITY ignoreCollected.accesskey               "g">
+<!ENTITY changesRestart.title                    "Changes take effect on restart.">
+<!ENTITY advancedOnly.title                      "For most users, there's no need to adjust any of these settings.">
+<!ENTITY default.title                           "Defaults">
+<!ENTITY default.accesskey                       "D">
+<!ENTITY accept.accesskey                        "O">
+<!ENTITY cancel.accesskey                        "C">

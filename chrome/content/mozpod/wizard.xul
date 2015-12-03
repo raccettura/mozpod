@@ -1,0 +1,218 @@
+<?xml version="1.0"?>
+ <!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is mozPod.
+   -
+   - The Initial Developer of the Original Code is
+   -     Robert Accettura <robert@accettura.com>.
+   - Portions created by the Initial Developer are Copyright (C) 2005-2007
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s):
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the LGPL or the GPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+
+<!DOCTYPE wizard [
+<!ENTITY % brandDTD SYSTEM "chrome://branding/locale/brand.dtd">
+%brandDTD;
+<!ENTITY % mozpodWizardDTD SYSTEM "chrome://mozpod/locale/wizard.dtd">
+%mozpodWizardDTD;
+]>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<wizard id="initWizard" title="&wizard.title;"
+        xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+    <script type="application/x-javascript" src="chrome://mozpod/content/wizard.js"/>
+    <script type="application/x-javascript" src="chrome://mozpod/content/animation.js"/>
+    <script type="application/x-javascript" src="chrome://mozpod/content/utils.js"/>
+
+    <!-- **************** -->
+    <!-- Setup Intro Page -->
+    <wizardpage id="setupIntro"
+                label = "&wizard1.label.title;">
+        <grid flex="1">
+            <columns>
+                <column/>
+                <separator width="20" />
+                <column flex="1"/>
+            </columns>
+
+            <rows>
+                <row>
+                    <vbox>
+                        <vbox style="border: 1px solid black;"><image src="chrome://mozpod/skin/img/poddock.png"/></vbox>
+                    </vbox>
+                     <vbox>
+                          <description>&wizard1.description1;</description>
+                          <description>&wizard1.description2;</description>
+                          <description>&wizard1.description3;</description>
+                          <description>&wizard1.description4;</description>
+                     </vbox>
+                </row>
+            </rows>
+        </grid>
+   </wizardpage>
+
+    <!-- ************ -->
+    <!-- Requirements -->
+    <wizardpage id="setupIntro"
+                label = "&wizard2.label.title;">
+        <grid flex="1">
+            <columns>
+                <column/>
+                <separator width="20" />
+                <column flex="1"/>
+            </columns>
+
+            <rows>
+                <row>
+                    <vbox>
+                        <vbox style="border: 1px solid black;"><image src="chrome://mozpod/skin/img/poddock.png"/></vbox>
+                    </vbox>
+                    <vbox xmlns:html="http://www.w3.org/1999/xhtml">
+                        <description>&wizard2.description1;</description>
+                        <html:ul>
+                            <html:li><description>&wizard2.description1;</description></html:li>
+                            <html:li><description>&wizard2.description3;</description></html:li>
+                            <html:li><description>&wizard2.description4;</description></html:li>
+                            <html:li><description>&wizard2.description5;</description></html:li>
+                        </html:ul>
+                    </vbox>
+                </row>
+            </rows>
+        </grid>
+    </wizardpage>
+
+    <!-- ****** -->
+    <!-- Step 1 -->
+    <wizardpage id="setupIntro"
+                label = "&wizard3.label.title;">
+        <grid flex="1">
+            <columns>
+                <column/>
+                <separator width="20" />
+                <column flex="1"/>
+            </columns>
+
+            <rows>
+                <row>
+                    <vbox>
+                        <vbox style="border: 1px solid black;"><image src="chrome://mozpod/skin/img/poddock.png"/></vbox>
+                    </vbox>
+                    <vbox>
+                        <description>&wizard3.description1;</description>
+                    </vbox>
+                </row>
+            </rows>
+        </grid>
+    </wizardpage>
+
+    <!-- ****** -->
+    <!-- Step 2 -->
+    <wizardpage id="setupIntro"
+                onpageshow="startAnim(2)"
+                onpageadvanced="endAnim()"
+                label = "&wizard4.label.title;">
+        <grid flex="1">
+            <columns>
+                <column/>
+                <separator width="20" />
+                <column flex="1"/>
+            </columns>
+
+            <rows>
+                <row>
+                    <vbox>
+                        <vbox style="border: 1px solid black;"><image id="step2img" src="chrome://mozpod/skin/img/step2_1.png"/></vbox>
+                    </vbox>
+                    <vbox>
+                        <description>&wizard4.description1;</description>
+                        <description>&wizard4.description2;</description>
+                    </vbox>
+                </row>
+            </rows>
+        </grid>
+    </wizardpage>
+
+    <!-- ****** -->
+    <!-- Step 3 -->
+    <wizardpage id="setupIntro"
+                onpageshow="startAnim(3)"
+                onpageadvanced="endAnim()"
+                label = "&wizard5.label.title;">
+        <grid flex="1">
+            <columns>
+                <column/>
+                <separator width="20" />
+                <column flex="1"/>
+            </columns>
+
+            <rows>
+                <row>
+                    <vbox>
+                        <vbox style="border: 1px solid black;"><image id="step3img" src="chrome://mozpod/skin/img/step3_1.png"/></vbox>
+                    </vbox>
+                    <vbox>
+                        <description>&wizard5.description1;</description>
+                        <description>&wizard5.description2;</description>
+                        <description>&wizard5.description3;</description>
+                    </vbox>
+                </row>
+            </rows>
+        </grid>
+    </wizardpage>
+
+    <!-- ****** -->
+    <!-- Step 4 -->
+    <wizardpage id="setupIntro"
+                onpageadvanced="hideWizard()"
+                label = "&wizard6.label.title;">
+        <grid flex="1">
+            <columns>
+                <column/>
+                <separator width="20" />
+                <column flex="1"/>
+            </columns>
+
+            <rows>
+                <row>
+                    <vbox>
+                        <vbox style="border: 1px solid black;"><image src="chrome://mozpod/skin/img/poddock.png"/></vbox>
+                    </vbox>
+                    <vbox>
+                        <description>&wizard6.description1;</description>
+                        <description>&wizard6.description2;</description>
+                        <description>&wizard6.description3;</description>
+                        <description>&wizard6.description4;</description>
+                        <spacer/>
+                        <text value="&wizard6.thanking.label;" style="color: blue; text-decoration: underline; text-align:center;" onclick="openURL('&robURL;');"/>
+                        <spacer/>
+                        <checkbox id="hideWizard" checked="true" label="&wizard6.hidewizard.label;"/>
+                    </vbox>
+                </row>
+            </rows>
+        </grid>
+    </wizardpage>
+</wizard>
